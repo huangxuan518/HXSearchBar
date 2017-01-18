@@ -42,7 +42,7 @@
     searchBar.clearButtonImage = [UIImage imageNamed:@"demand_delete"];
     
     //去掉取消按钮灰色背景
-    searchBar.hideCancleButtonBackgroundImage = YES;
+    searchBar.hideSearchBarBackgroundImage = YES;
 
     [self.view addSubview:searchBar];
 }

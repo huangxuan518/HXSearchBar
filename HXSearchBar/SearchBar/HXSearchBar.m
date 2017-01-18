@@ -48,10 +48,10 @@
     }
 }
 
-- (void)setHideCancleButtonBackgroundImage:(BOOL)hideCancleButtonBackgroundImage {
-    if (hideCancleButtonBackgroundImage) {
-        _hideCancleButtonBackgroundImage = hideCancleButtonBackgroundImage;
-         self.backgroundImage = [[UIImage alloc] init];
+- (void)setHideSearchBarBackgroundImage:(BOOL)hideSearchBarBackgroundImage {
+    if (hideSearchBarBackgroundImage) {
+        _hideSearchBarBackgroundImage = hideSearchBarBackgroundImage;
+        self.backgroundImage = [[UIImage alloc] init];
     }
 }
 
