@@ -48,12 +48,10 @@
     }
 }
 
-//设置取消按钮背景图片
-- (void)setCancleButtonImage:(UIImage *)cancleButtonImage
-{
-    if (cancleButtonImage) {
-        _cancleButtonImage = cancleButtonImage;
-         self.backgroundImage = cancleButtonImage;
+- (void)setHideCancleButtonBackgroundImage:(BOOL)hideCancleButtonBackgroundImage {
+    if (hideCancleButtonBackgroundImage) {
+        _hideCancleButtonBackgroundImage = hideCancleButtonBackgroundImage;
+         self.backgroundImage = [[UIImage alloc] init];
     }
 }
 
