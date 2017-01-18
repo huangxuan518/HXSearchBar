@@ -59,10 +59,9 @@
 - (UIButton *)cancleButton
 {
     self.showsCancelButton = YES;
-    for (id cc in [self.subviews[0] subviews]) {
-        if([cc isKindOfClass:[UIButton class]])
-        {
-            _cancleButton = (UIButton *)cc;
+    for (UIView *view in [[self.subviews lastObject] subviews]) {
+        if ([view isKindOfClass:[UIButton class]]) {
+            _cancleButton = (UIButton *)view;
         }
     }
     return _cancleButton;
