@@ -13,6 +13,7 @@
 		E4D457D11E2EFDCE006B8946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D457CF1E2EFDCE006B8946 /* Main.storyboard */; };
 		E4D457D31E2EFDCE006B8946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D457D21E2EFDCE006B8946 /* Assets.xcassets */; };
 		E4D457D61E2EFDCE006B8946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D457D41E2EFDCE006B8946 /* LaunchScreen.storyboard */; };
+		E4D457DF1E2EFDF6006B8946 /* HXSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D457DE1E2EFDF6006B8946 /* HXSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E4D457D21E2EFDCE006B8946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D457D51E2EFDCE006B8946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4D457D71E2EFDCE006B8946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D457DD1E2EFDF6006B8946 /* HXSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSearchBar.h; sourceTree = "<group>"; };
+		E4D457DE1E2EFDF6006B8946 /* HXSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		E4D457C51E2EFDCE006B8946 /* HXSearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				E4D457DD1E2EFDF6006B8946 /* HXSearchBar.h */,
+				E4D457DE1E2EFDF6006B8946 /* HXSearchBar.m */,
 				E4D457C91E2EFDCE006B8946 /* AppDelegate.h */,
 				E4D457CA1E2EFDCE006B8946 /* AppDelegate.m */,
 				E4D457CC1E2EFDCE006B8946 /* ViewController.h */,
@@ -153,6 +158,7 @@
 				E4D457CE1E2EFDCE006B8946 /* ViewController.m in Sources */,
 				E4D457CB1E2EFDCE006B8946 /* AppDelegate.m in Sources */,
 				E4D457C81E2EFDCE006B8946 /* main.m in Sources */,
+				E4D457DF1E2EFDF6006B8946 /* HXSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
