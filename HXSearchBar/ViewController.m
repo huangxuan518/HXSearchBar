@@ -1,7 +1,7 @@
 //
 //  ViewController.m
 //  黄轩博客 blog.libuqing.com
-//
+//  https://github.com/huangxuan518/HXSearchBar
 //  Created by 黄轩 on 2017/1/18.
 //  Copyright © 2017年 黄轩 IT小子. All rights reserved.
 //
