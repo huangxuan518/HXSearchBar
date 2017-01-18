@@ -12,7 +12,13 @@ HXSearchBar是一款完全可以自定义的搜索框
 
 # 效果展示
 
+![image](https://github.com/huangxuan518/HXSearchBar/blob/master/HXSearchBar/xiaoguo.png)
+
 # 属性展示
 
+![image](https://github.com/huangxuan518/HXSearchBar/blob/master/HXSearchBar/1.png)
+
 # 注意事项
+
+UISearchBar的showsCancelButton = YES时，才能获取到取消按钮
 
