@@ -13,7 +13,9 @@
 		E4D457D11E2EFDCE006B8946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D457CF1E2EFDCE006B8946 /* Main.storyboard */; };
 		E4D457D31E2EFDCE006B8946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D457D21E2EFDCE006B8946 /* Assets.xcassets */; };
 		E4D457D61E2EFDCE006B8946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D457D41E2EFDCE006B8946 /* LaunchScreen.storyboard */; };
-		E4D457DF1E2EFDF6006B8946 /* HXSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D457DE1E2EFDF6006B8946 /* HXSearchBar.m */; };
+		E4D457E41E2F1028006B8946 /* xiaoguo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D457E21E2F1028006B8946 /* xiaoguo.png */; };
+		E4D457E51E2F1028006B8946 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D457E31E2F1028006B8946 /* 1.png */; };
+		E4D457E91E2F105B006B8946 /* HXSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D457E81E2F105B006B8946 /* HXSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +29,11 @@
 		E4D457D21E2EFDCE006B8946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D457D51E2EFDCE006B8946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4D457D71E2EFDCE006B8946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4D457DD1E2EFDF6006B8946 /* HXSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSearchBar.h; sourceTree = "<group>"; };
-		E4D457DE1E2EFDF6006B8946 /* HXSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSearchBar.m; sourceTree = "<group>"; };
+		E4D457E01E2F0EBF006B8946 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4D457E21E2F1028006B8946 /* xiaoguo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguo.png; sourceTree = "<group>"; };
+		E4D457E31E2F1028006B8946 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E4D457E71E2F105B006B8946 /* HXSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSearchBar.h; sourceTree = "<group>"; };
+		E4D457E81E2F105B006B8946 /* HXSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,7 @@
 		E4D457BA1E2EFDCE006B8946 = {
 			isa = PBXGroup;
 			children = (
+				E4D457E01E2F0EBF006B8946 /* README.md */,
 				E4D457C51E2EFDCE006B8946 /* HXSearchBar */,
 				E4D457C41E2EFDCE006B8946 /* Products */,
 			);
@@ -61,14 +67,15 @@
 		E4D457C51E2EFDCE006B8946 /* HXSearchBar */ = {
 			isa = PBXGroup;
 			children = (
-				E4D457DD1E2EFDF6006B8946 /* HXSearchBar.h */,
-				E4D457DE1E2EFDF6006B8946 /* HXSearchBar.m */,
+				E4D457E61E2F105B006B8946 /* 搜索框 */,
 				E4D457C91E2EFDCE006B8946 /* AppDelegate.h */,
 				E4D457CA1E2EFDCE006B8946 /* AppDelegate.m */,
 				E4D457CC1E2EFDCE006B8946 /* ViewController.h */,
 				E4D457CD1E2EFDCE006B8946 /* ViewController.m */,
 				E4D457CF1E2EFDCE006B8946 /* Main.storyboard */,
 				E4D457D21E2EFDCE006B8946 /* Assets.xcassets */,
+				E4D457E21E2F1028006B8946 /* xiaoguo.png */,
+				E4D457E31E2F1028006B8946 /* 1.png */,
 				E4D457D41E2EFDCE006B8946 /* LaunchScreen.storyboard */,
 				E4D457D71E2EFDCE006B8946 /* Info.plist */,
 				E4D457C61E2EFDCE006B8946 /* Supporting Files */,
@@ -82,6 +89,16 @@
 				E4D457C71E2EFDCE006B8946 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4D457E61E2F105B006B8946 /* 搜索框 */ = {
+			isa = PBXGroup;
+			children = (
+				E4D457E71E2F105B006B8946 /* HXSearchBar.h */,
+				E4D457E81E2F105B006B8946 /* HXSearchBar.m */,
+			);
+			name = "搜索框";
+			path = SearchBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +161,9 @@
 			files = (
 				E4D457D61E2EFDCE006B8946 /* LaunchScreen.storyboard in Resources */,
 				E4D457D31E2EFDCE006B8946 /* Assets.xcassets in Resources */,
+				E4D457E41E2F1028006B8946 /* xiaoguo.png in Resources */,
 				E4D457D11E2EFDCE006B8946 /* Main.storyboard in Resources */,
+				E4D457E51E2F1028006B8946 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +177,7 @@
 				E4D457CE1E2EFDCE006B8946 /* ViewController.m in Sources */,
 				E4D457CB1E2EFDCE006B8946 /* AppDelegate.m in Sources */,
 				E4D457C81E2EFDCE006B8946 /* main.m in Sources */,
-				E4D457DF1E2EFDF6006B8946 /* HXSearchBar.m in Sources */,
+				E4D457E91E2F105B006B8946 /* HXSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +332,7 @@
 				E4D457DC1E2EFDCE006B8946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
